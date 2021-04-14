@@ -6,11 +6,15 @@
   "scripts": {
     "demo-01": "cd 01-getting-started && webpack",
     "demo-02": "cd 02-configuation && webpack",
-    "demo-03": "cd 03-webpack-loader && webpack"
+    "demo-03": "cd 03-webpack-loader && webpack",
+    "demo-04": "cd 04-webpack-plugin && webpack"
   },
   "dependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^8.1.1",
     "css-loader": "^5.2.1",
     "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
     "marked": "^2.0.3",
     "style-loader": "^2.0.0",
     "webpack": "^5.32.0",
