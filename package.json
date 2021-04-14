@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "demo-01": "cd 01-getting-started && webpack"
+    "demo-01": "cd 01-getting-started && webpack",
+    "demo-02": "cd 02-configuation && webpack"
   },
   "dependencies": {
     "webpack": "^5.32.0",
