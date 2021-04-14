@@ -6,8 +6,13 @@
   "scripts": {
     "demo-01": "cd 01-getting-started && webpack",
     "demo-02": "cd 02-configuation && webpack",
+    "demo-03": "cd 03-webpack-loader && webpack"
   },
   "dependencies": {
+    "css-loader": "^5.2.1",
+    "html-loader": "^2.1.2",
+    "marked": "^2.0.3",
+    "style-loader": "^2.0.0",
     "webpack": "^5.32.0",
     "webpack-cli": "^4.6.0"
   }
